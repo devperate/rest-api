@@ -8,7 +8,7 @@ The Knuth Rest-API is a powerful RESTful service engineered with Node.js and Exp
 
 1. Clone this repository to your local machine.
 2. Install dependencies with the command `npm install`.
-3. Configure environment variables in the .env file for personalized settings.
+3. Configure environment variables in the .env file for personalized settings: `cp .env.example .env`
 3. Initiate the server using `npm start`.
 
 ## API Endpoints

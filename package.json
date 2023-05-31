@@ -1,0 +1,38 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "A robust and efficient RESTful API built with Node.js and Express, designed for interaction with the Knuth implementation of the Bitcoin Cash (BCH) blockchain. This API is equipped with features such as block and transaction fetching, block organization, caching, and environment-configured settings for enhanced scalability and performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-nuth/rest-api.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "cash",
+    "bch",
+    "blockchain",
+    "knuth",
+    "kth",
+    "rest",
+    "api",
+    "performance"
+  ],
+  "author": "Knuth Project developers (https://kth.cash)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k-nuth/rest-api/issues"
+  },
+  "homepage": "https://github.com/k-nuth/rest-api#readme",
+  "dependencies": {
+    "@knuth/bch": "^1.19.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "memory-cache": "^0.2.0"
+  }
+}
