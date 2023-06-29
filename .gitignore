@@ -4,3 +4,4 @@ blockchain/
 debug.log
 error.log
 hosts.cache
+.prettierrc
